@@ -31,10 +31,14 @@ Individual reviews: what attributes are important/most related to a positive or 
 Build a Logit regression, which predicts if a review is positive(4,5 stars) or negative (1,2).
 By checking the most important highly-weighted features, we can find out the important attributes for customers to like/dislike a boba tea shop.
 These attributes can be further categorized into product, operations, marketing perspectives for us to form recommendations.
-April, Tina, Jack
+
+Comments:
 Prof Chen: Contrast boba tea shops with froyo shops (to compare baseline preferences / behaviors for dessert / snack restaurants).
+
 Prof Chen: you might want to filter or pivot by user profiles and backgrounds as well - you can join to the users table to do so
+
 Prof Chen: You can also include the features of the restaurants (like if they accept credit cards, do take out, etc. as other features in your model). 
+
 What features are important or say related to the success of a tea shop?
 Success definition: restaurant_review_count, is_open, or restaurant_rating
 Features include business_parking, ambience, attributes
