@@ -33,18 +33,22 @@ By checking the most important highly-weighted features, we can find out the imp
 These attributes can be further categorized into product, operations, marketing perspectives for us to form recommendations.
 
 Comments:
+
 Prof Chen: Contrast boba tea shops with froyo shops (to compare baseline preferences / behaviors for dessert / snack restaurants).
 
 Prof Chen: you might want to filter or pivot by user profiles and backgrounds as well - you can join to the users table to do so
 
 Prof Chen: You can also include the features of the restaurants (like if they accept credit cards, do take out, etc. as other features in your model). 
 
-What features are important or say related to the success of a tea shop?
+What features are important or say related to the success of a tea shop? 
+
 Success definition: restaurant_review_count, is_open, or restaurant_rating
+
 Features include business_parking, ambience, attributes
+
 May need variable business_id back to the dataset to get unique stores
-Cathy, Rachel, Penny 
-3 sentimental categories: useful(17,275 reviews), cool(11,934 reviews), funny(8,641 reviews)
+
+sentimental categories: useful(17,275 reviews), cool(11,934 reviews), funny(8,641 reviews)
 
 Risks
 
