@@ -5,7 +5,7 @@ library(ISLR)
 library(boot)
 library(ggplot2)
 
-data=read.csv("data_v1_Penny.csv")
+data=read.csv("yelp_bubble_tea_reviews_encoded")
 
 
 
